@@ -7,7 +7,7 @@ keyIsUp = ()=> {
 render() {
     return (
     <div >
-    <input type="password" keyUp= {this.keyIsUp} />
+    <input type="password" onKeyUp= {this.keyIsUp} />
     </div>
     )
 }
