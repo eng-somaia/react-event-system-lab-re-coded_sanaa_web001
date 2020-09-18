@@ -10,7 +10,7 @@ focusOff = ()=> {
 render() {
     return (
     <div >
-    <button focus= {this.focusOn} blur= {this.focusOff}>Focus?</button>
+    <button onFocus= {this.focusOn} onBlur= {this.focusOff}>Focus?</button>
     </div>
     )
 }
