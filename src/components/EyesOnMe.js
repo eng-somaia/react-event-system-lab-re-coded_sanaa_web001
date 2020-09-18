@@ -5,7 +5,7 @@ focusOn = ()=> {
     console.log('Good!')
   }
 focusOff = ()=> {
-    cosole.log('Hey! Eyes on me!')
+    console.log('Hey! Eyes on me!')
   }
 render() {
     return (
