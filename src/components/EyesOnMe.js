@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class EyesOnMe extends Component {
 focusOn = ()=> {
-    cosole.log('Good!')
+    console.log('Good!')
   }
 focusOff = ()=> {
     cosole.log('Hey! Eyes on me!')
