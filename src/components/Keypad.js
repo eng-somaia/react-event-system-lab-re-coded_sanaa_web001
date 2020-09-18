@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Keypad extends Component {
 keyIsUp = ()=> {
-    return 'Entering password...'
+    console.log('Entering password...')
   }
 render() {
     return (
